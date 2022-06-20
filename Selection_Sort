@@ -30,8 +30,6 @@ def selectionSort2(arr):
         newArr.append(arr.pop(largest))
     return newArr
 
-
-
 print (selectionSort([5, 3, 6, 2, 10]))
 print (selectionSort2([5, 3, 6, 2, 10]))
 
